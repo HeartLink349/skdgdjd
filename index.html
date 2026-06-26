@@ -113,42 +113,6 @@
 
         .music-bar { background: var(--glass); padding: 18px; border-radius: 30px; border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 15px; margin: 25px 0; backdrop-filter: blur(20px); }
         .play-icon { width: 50px; height: 50px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 15px var(--primary); cursor: pointer; }
-
-        /* HeartLink Credit CSS */
-        .heartlink-credit {
-            position: fixed;
-            left: 50%;
-            bottom: 12px;
-            transform: translateX(-50%);
-            z-index: 99999;
-            text-decoration: none;
-            color: rgba(255,255,255,0.78);
-            font-size: 11px;
-            font-weight: 700;
-            font-family: inherit;
-            padding: 7px 12px;
-            border-radius: 999px;
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.12);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-            transition: 0.25s ease;
-        }
-
-        .heartlink-credit:hover {
-            color: #fff;
-            background: rgba(255,255,255,0.09);
-            transform: translateX(-50%) translateY(-2px);
-        }
-
-        @media (max-width: 480px) {
-            .heartlink-credit {
-                font-size: 10px;
-                bottom: 9px;
-                padding: 6px 10px;
-            }
-        }
     </style>
 </head>
 <body>
@@ -250,11 +214,6 @@
         </div>
     </section>
 
-    <!-- HeartLink Credit -->
-    <a href="https://wa.me/201125674359" target="_blank" class="heartlink-credit">
-        Made with ❤️ by HeartLink
-    </a>
-
     <script>
         function goToPage2() {
             if(document.getElementById('passInput').value === "A♡M") {
@@ -336,4 +295,4 @@
 </script>
 <script src="https://cdn.jsdelivr.net/gh/HeartLink349/Heart_Link@heartlink-lock-system/heartlink-lock.js"></script>
 </body>
-    </html>
+</html>
